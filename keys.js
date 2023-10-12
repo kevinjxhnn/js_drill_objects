@@ -1,14 +1,14 @@
 
 function keys(obj) {
-    let keys = []
+    let keysArray = []
 
     for(const property in obj){
         if(obj.hasOwnProperty(property)){
-            keys.push(property)
+            keysArray.push(property)
         }
     }
 
-    return keys
+    return keysArray
 
 }
 
